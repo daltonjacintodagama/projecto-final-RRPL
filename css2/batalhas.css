@@ -1,0 +1,102 @@
+body{
+    text-align: justify;
+    background-color: #111112;
+    color: white;
+}
+
+
+.nav-link:hover {
+    background-color: red;
+    color: white;
+}
+
+h1{
+    color: red;
+    margin-left: 20px;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(213, 223, 223);
+    border-bottom: 2px red solid ;
+    display: flex;
+    align-items: flex-end;
+}
+
+header > h1{  
+    font-size: 2rem;
+    color: #ffffffe6;
+}
+
+section.texto_informativo{
+    text-align: justify;
+    width: 90vw;
+    margin: 20px auto;
+}
+
+.temporadas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+
+.temporada{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: rgba(255, 10, 10, 0.515);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(255, 255, 255,0.5);
+    border-left:2px solid rgba(255, 255, 255,0.5);
+}
+
+h2.fixo{
+    margin-top: 150px;
+}
+
+.temporadas .temporada:hover h2.fixo{
+    display: none;
+}
+
+.n_temp p{
+    color: gray;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.temporadas .temporada .n_temp{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px) ;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.temporadas .temporada:hover .n_temp{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+h2{
+    position: absolute;
+    top: -80px;
+    font-size: 8em;
+    color: gray;
+}
+
+
+a{
+    text-decoration: none;
+    margin-left: auto;
+    margin-block-end: auto;
+}

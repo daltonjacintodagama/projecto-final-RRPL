@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <style>
+        body{
+            background: black;
+        }
+        .container{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            border: 2px solid rgba(180, 175, 175,0.5);
+            margin: 50px auto;
+            border-radius: 30px;
+            background-color: white;
+        }
+
+        h3{
+            color: red;
+        }
+
+        img{
+            width: 35vw;   
+        }
+
+        .nav-link:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .navbar .btn{
+              border-color: red;
+             color: red;
+        }
+
+        .navbar .btn:hover{
+            background-color: red;
+             border-color: white;
+            color: white;
+        }
+
+        @media only screen and(max-width: 700px) {
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .logo{
+                width: 95vw;
+                height: 80vh;
+            }
+
+            
+        }
+    </style>
+
+</head>
+<body>
+     <!------NAV BAR------>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">RRPL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./batalhas.html">Batalhas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gladiadores.html">Gladiadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre.html">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="../css2/jovem_mexendo_no_pc.svg" alt="animacao">
+        </div>
+        <div>
+            <h3>Sobre Mim </h3>
+            <p>Este site foi criado por um estudante de TI durante a formação dada pela Buka patrocinada pela Unitel,
+                o Unitel Code Web na 11ª Edição, meu nome é Dalton O.Jacinto da Gama e foi um prazaer desenvolver 
+                este site como projecto final, acho o rompimento uma area ainda inesplorada mas com um grande futuro, 
+                ele faz com que gladiadores busquem dicas além do normal presando assim pelo desenvolvimento intelectual
+                do próprio gladiador como de nós, os espectadores.
+
+                Espero que tenhas gostado do site e que ele tenha te ajudado de alguma forma, sem mas nada a dizer me 
+                despeço.
+            </p>
+            <p>Contactos: 932802580</p>
+
+        </div>
+    </div>
+
+    <iframe src="footer.html" frameborder="0" width="100%" style="margin: none;margin-block-end: none;"></iframe>
+
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
